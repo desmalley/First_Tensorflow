@@ -35,8 +35,8 @@ def imshow(image, title=None):
   if title:
     plt.title(title)
 
-content_path = 'FSY1.PNG'
-style_path = 'Pokemon1.png'
+content_path = 'Spider1.jpeg'
+style_path = 'Spider2.jpeg'
 
 content_image = load_img(content_path)
 style_image = load_img(style_path)
